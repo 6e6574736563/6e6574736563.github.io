@@ -23,7 +23,7 @@ class JSFuckObfuscator:
         return JSFuckObfuscator._jsf_compiled.call("JSFuck", code, "1")
 
 # Load the template and config for the challenges
-with open("template.html", "r") as template:
+with open("templates/challenge.html", "r") as template:
     template = template.read()
     
 with open("challenges.yaml", "r") as challenges:
@@ -31,6 +31,17 @@ with open("challenges.yaml", "r") as challenges:
 
 # Create the docs directory if it doesnt exist
 os.makedirs("docs", exist_ok=True) 
+
+
+# Add path to first challenge in index.html for auto redirect
+if challenges:
+    first_challenge_name = challenges[0].get("name")
+    with open("templates/index.html", "r") as template_file:
+        content = template_file.read().replace("{FIRST_CHALL}", first_challenge_name)
+    
+    with open("docs/index.html", "w") as output_file:
+        output_file.write(content)
+
 
 for count, challenge in enumerate(challenges):
     # Extract challenge config values
@@ -44,7 +55,7 @@ for count, challenge in enumerate(challenges):
         next_challenge = f"{challenges[count + 1].get("name")}.html"
     else:
         next_challenge = None
-    
+        
     # Format the description into paragraphs. Kinda hacky, but it works
     description = description.strip().split("\n")
     formatted_description = []
