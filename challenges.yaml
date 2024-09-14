@@ -1,0 +1,53 @@
+- name: mirror
+  description: |
+    Lurer på hva det står nedenfor 🤔
+    {{mirror-text}}Vi starter lett, koden din er: h1dden
+  answer: h1dden
+  
+- name: cipher
+  description: |
+    Jeg har gjemt denne koden bak ett <a href="https://en.wikipedia.org/wiki/Cipher">cipher</a> jeg har laget og oppkalt etter meg. Navnet mitt er også navnet på en av verdens mest kjente salat. Bruk cipheret mitt for å finne ut hva som står her: <b>DftbsTbmbu</b>
+  answer: CesarSalat
+  
+- name: dotdotdash
+  description: |
+    Jeg fikk følgende melding fra den andre båten, hva står det?
+    <b>.--. .-. .. -.- -.- . .-. --- --. ... - .-. . -.- . .-.</b>
+  answer: PRIKKEROGSTREKER
+
+- name: 10101
+  description: |
+    Snakker du språket til datamaskiner? Datamaskiner kommuniserer i Binær, eller 1 og 0. Under finner du et enkel regnestykke i binær. Finn ut hva som gjemmer seg bake binær tallene og multipliser de sammen. Veien videre finner du i svaret.
+    <b>111100 * 1011001 = ?</b>
+  answer: 5340
+
+- name: qr
+  description: |
+    <center><img src="qr.png"></center><br>Før var QR en kode, nå er Q og R separert og de savner hverandre fryktelig. Hjelp Q og R å finne tilbake til hverandre så hjelper de deg videre til neste oppgave.  
+  answer: aQuteRomance
+
+- name: numbers
+  description: |
+    I 2007 kom den første iPhonen og telefoner med touch skjerm fikk virkelig medfart. Selv synes jeg disse telefonene har for mange muligheter, Candycrush? Fortnite på iPhone? Hva er alt dette? Kall meg gjerne nostalgisk, men selv om det er lettere å skrive på nye telefoner, foretrekker jeg den gamle måten.
+
+    <b>3 2 8 2 7777 66 666 55</b>
+  answer: DATASNOK
+  
+- name: apt
+  description: |
+    En avansert og vedvarende trusselaktør (APT) er en skjult og snikende trusselaktør, vanligvis innen en nasjonalstat eller statsautorisert gruppe, som får uautorisert tilgang til fremmende datamaskin-nettverk og forblir uoppdaget for en lengre periode. Selv om de er skumle får noen APTer ofte tildelt koselige navn som Kozy Bear, Dynamite Panda og Mythic Leopard.
+    Hvilket dyr på engelsk skjuler seg bak APT35? 
+  answer: Kitten 
+
+- name: location
+  description: |
+    Vi har vært ute på reise, kunne ikke språket og gikk oss derfor ofte vill. Heldigvis bruker de samme tallene som oss. Dette er ett av stedene vi var hvor vi fant noe som hjalp oss videre. Land + Summen av to tall på blå bakgrunn som viser deg veien, viser deg veien videre.
+
+    <b>39.159804,140.4893183</b>
+  answer: Japan291
+
+- name: tshirt
+  description: |
+    Jeg prøver å selge en gammel brukt t-skjorte, men ingen vil ha den. Kanskje er den for slitt? Ikke vet jeg. Uansett, jeg er ikke så kreativ så tallet på t-skjorten ganget med 42 er veien videre.
+    <b>Tall på skjorte * 42 = ?</b>
+  answer: 3570
