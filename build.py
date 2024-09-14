@@ -29,8 +29,8 @@ with open("template.html", "r") as template:
 with open("challenges.yaml", "r") as challenges:
     challenges = yaml.safe_load(challenges)
 
-# Create the web directory if it doesnt exist
-os.makedirs("web", exist_ok=True) 
+# Create the docs directory if it doesnt exist
+os.makedirs("docs", exist_ok=True) 
 
 for count, challenge in enumerate(challenges):
     # Extract challenge config values
@@ -70,5 +70,5 @@ for count, challenge in enumerate(challenges):
     )
     
 
-    with open(f"web/{name}.html", "w") as f:
+    with open(f"docs/{name}.html", "w") as f:
         f.write(challenge_page)
