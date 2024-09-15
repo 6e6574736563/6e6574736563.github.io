@@ -4,6 +4,14 @@ import re
 import os
 import hashlib
 
+html_form = """
+                <form id="answerForm" class="mt-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="inputText" placeholder="Ditt svar her" required>
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </form>
+"""
 
 class JSFuckObfuscator:
     _jsf_compiled = None
@@ -79,6 +87,9 @@ for count, challenge in enumerate(challenges):
         .replace("{CONFIG}", jsf_config)
         .replace("{CHALL_NUMBER}", str(count + 1))
     )
+    
+    # Answer submission form is not needed for the last challenge
+    challenge_page = challenge_page.replace("{FORM}", html_form if next_challenge else "")
     
 
     with open(f"docs/{name}.html", "w") as f:
