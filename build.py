@@ -19,7 +19,7 @@ class JSFuckObfuscator:
     def obfuscate(code):
         """Obfuscate the given JavaScript code using JSFuck"""
         if JSFuckObfuscator._jsf_compiled is None:
-            JSFuckObfuscator._load_jsfuck()  # Automatically load JSFuck when needed
+            JSFuckObfuscator._load_jsfuck()
         return JSFuckObfuscator._jsf_compiled.call("JSFuck", code, "1")
 
 # Load the template and config for the challenges
