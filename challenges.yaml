@@ -6,8 +6,8 @@
   
 - name: cipher
   description: |
-    Jeg har gjemt denne koden bak ett <a href="https://en.wikipedia.org/wiki/Cipher">cipher</a> jeg har laget og oppkalt etter meg. Navnet mitt er også navnet på en av verdens mest kjente salat. Bruk cipheret mitt for å finne ut hva som står her: <b>DøtfsTbmbu</b>
-  answer: CæsarSalat
+    Jeg har gjemt denne koden bak ett <a href="https://en.wikipedia.org/wiki/Cipher">cipher</a> jeg har laget og oppkalt etter meg. Navnet mitt er også navnet på en av verdens mest kjente salat. Bruk cipheret mitt for å finne ut hva som står her: <b>DbftbsTbmbu</b>
+  answer: CaesarSalat
   
 - name: dotdotdash
   description: |
