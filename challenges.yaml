@@ -6,18 +6,18 @@
   
 - name: cipher
   description: |
-    Jeg har gjemt denne koden bak ett <a href="https://en.wikipedia.org/wiki/Cipher">cipher</a> jeg har laget og oppkalt etter meg. Navnet mitt er også navnet på en av verdens mest kjente salat. Bruk cipheret mitt for å finne ut hva som står her: <b>DftbsTbmbu</b>
-  answer: CesarSalat
+    Jeg har gjemt denne koden bak ett <a href="https://en.wikipedia.org/wiki/Cipher">cipher</a> jeg har laget og oppkalt etter meg. Navnet mitt er også navnet på en av verdens mest kjente salat. Bruk cipheret mitt for å finne ut hva som står her: <b>DøtfsTbmbu</b>
+  answer: CæsarSalat
   
 - name: dotdotdash
   description: |
-    Jeg fikk følgende melding fra den andre båten, hva står det?
+    I Kristiansands skjærgård mottok vi en melding fra en merkelig kar med hvitt ansikt og sorte klær på en gammel skute. Han sluttet ikke å skrike «Hiv og Hoi» og var vist grusomt redd en eller annen kar som heter Gabriel? Han sendte oss en melding som vi ikke finner helt ut av.
     <b>.--. .-. .. -.- -.- . .-. --- --. ... - .-. . -.- . .-.</b>
   answer: PRIKKEROGSTREKER
 
 - name: 10101
   description: |
-    Snakker du språket til datamaskiner? Datamaskiner kommuniserer i Binær, eller 1 og 0. Under finner du et enkel regnestykke i binær. Finn ut hva som gjemmer seg bake binær tallene og multipliser de sammen. Veien videre finner du i svaret.
+    Snakker du språket til datamaskiner? Datamaskiner kommuniserer i Binær, eller 1 og 0. Under finner du et enkel regnestykke i binær. Finn ut hva som gjemmer seg bak binær tallene og multipliser de sammen. Veien videre finner du i svaret.
     <b>111100 * 1011001 = ?</b>
   answer: 5340
 
@@ -55,4 +55,4 @@
 - name: source
   description: |
     Note to self: Fiks spaghettien i kildekoden og fjern hemmelighetene!!!
-    <!-- Koden til det temmelig hemmelig skapet: 123456789 -->
+    <!-- Koden til det temmelig hemmelige skapet er definitivt ikke: 64839745 -->
